@@ -1,0 +1,64 @@
+#none
+none_variable = None
+#Atomic
+x=3 #int
+print(type(x))
+y=3.4
+print(type(y))
+
+#Collection
+list1=[1,2,3]
+list2=list() #Empty list
+list3=[]
+list4=[1,2,"hi",[6,7,8]]
+list1.append(4)
+print(id(list1), id(list2))
+
+#String
+str1="Hello"
+str1=str1+ ", you"
+print(str1)
+
+#Tuples
+tpl=tuple()
+tp2=(1,2,3)
+
+#set
+set1=set()
+set2={1,2,3}
+print(set2)
+set2.add(4)
+print(set2)
+
+#Set is a collection and not a sequence, so print(set2[1]) would not run
+
+#dict
+dict1={}
+dict2=dict()
+dict1={3:"Hello", "name":"John","net id": 5476357}
+dict1(["name"])
+print(dict1[0])
+
+#slice
+list1=[1,2,3,4,5,6,,7]
+print(list1[0:3])
+#first index included, last index excluded so this would print: [1,2,3]
+print(list1[0::2])
+#skips by 2 to print: [1,3,5,7]
+print(list1[:])
+#prints whole thing
+print(list1[-2])
+#prints: 6
+#len
+print(len(list1))
+#prints: 7
+print(len(dict1))
+#prints: 3
+#operators
+print(3//4)
+print(3**4)
+print(3%4)
+
+
+#operators
+
